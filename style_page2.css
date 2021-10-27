@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    background-image: url('img/headcover.jpg');
+    
+}
+.head{
+    background-image: url('img/headcover.jpg');
+}
+.container {
+    display: flex;
+}
+
+.head{
+ background-color: whitesmoke;
+}
+#links a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+ }
+ #links a:hover{
+     color: grey;
+     border-bottom: 1px solid grey;
+ }
+#links{
+    padding-left: 10px;
+    display: inline;
+}
+#logo{
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+.rightside{
+    display: flex;
+    justify-content: flex-end;
+}
+.leftside{
+     margin-top:15px;
+     margin-left: 5px;
+}
+.content{
+    background-image: linear-gradient(to right,black 0%,white 75%),url('img/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 720px;
+    padding-bottom: 200px;
+    background-blend-mode: darken;
+}
+/* main content*/
+.contentchild{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gameswrapper{
+        position: relative;
+}
+.gameback{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textwrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.textwrapper .subtitle{
+        transition: 1s;
+        font-weight: 400;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+        color: transparent;
+
+}
+.textwrapper:hover .subtitle{
+    font-weight: 400;
+    color: lightblue;
+}
+/* specific class*/
+.img_darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+/*footer*/
+footer{
+      color: white;
+}
+footer a{
+    padding-left: 600px;
+   
+}
+#page a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#page a:hover{
+    color: grey;
+    transition: 0.5s;
+}
