@@ -1,2 +1,2 @@
 # static-website
-static game info site
+static game information site done using html and css with css grids and javascript 
